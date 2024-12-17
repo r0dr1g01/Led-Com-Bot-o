@@ -1,0 +1,21 @@
+// Programador: r0dr1g0
+// 17/12/2024
+// Observações
+//----------------------------------------------------------------
+const int BOTAO = 4; 
+const int LED = 12;  
+
+void setup() {
+  pinMode(BOTAO, INPUT);  
+  pinMode(LED, OUTPUT);   
+}
+
+void loop() {
+  int estadoBotao = digitalRead(BOTAO);
+
+  if (estadoBotao == HIGH) {
+    digitalWrite(LED, HIGH);
+  } else {
+    digitalWrite(LED, LOW);
+  }
+}
