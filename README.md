@@ -5,8 +5,11 @@ Neste circuito temos uma led ligada a placa Arduino UNO, em que quando se prime 
 Materiais usados:
 
 -> Breadboard
+
 -> Botão
+
 -> Placa Arduino
+
 -> Resistência
 
 
