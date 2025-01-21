@@ -14,12 +14,12 @@ Quando o botão é pressionado, o LED acende; caso contrário, ele permanece apa
 
 ## 🔌 Esquema de Ligações  
 
-| Componente               | Pino no Arduino |
-|-------------------------|----------------|
-| **Sensor Ultrassônico (Trigger)** | 11 |
-| **Sensor Ultrassônico (Echo)** | 12 |
-| **Alimentação do Sensor (VCC)** | 5V |
-| **GND do Sensor** | GND |
+| Componente | Pino no Arduino |
+|------------|----------------|
+| Botão (Sinal) | 4 |
+| LED (Ânodo) | 12 |
+| Botão (GND) | GND |
+| LED (Cátodo) | GND |
 
 ## 📂 Docs  
 O código-fonte pode ser acessado aqui:  
